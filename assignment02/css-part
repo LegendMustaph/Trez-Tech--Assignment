@@ -1,0 +1,142 @@
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+   line-height: 1.6; 
+   background: #f9f9f9;
+  }
+  .container{
+    max-width: 100px;
+    margin: 0px;
+    padding: 0px;
+  }
+  header{
+    background: #2d2929;
+    color: white;
+    padding: 1rem 0;
+    
+  }
+  nav{
+    justify-content: space-between;
+    width: 90%;
+        display: flex;
+            align-items: center;
+    margin: auto;
+
+
+  }
+
+  nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  nav a{
+    text-decoration: none;
+    font-weight: 400;
+    color: white;
+  }
+  .hero{
+    height: 80vh;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(to right, #00bcd4, #2196f3);
+    justify-content: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  section{
+    padding: 60px 80px;
+  }
+  .legend p{
+    max-width: 700px;
+  }
+  .skills .skill-bar{
+    margin: 20px 0;
+  }
+  .bar{
+    background: white;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .progress{
+   height: 10px; 
+  }
+  .progress.html{
+    background: #2d2929;
+    width: 900px;
+  }
+  .progress.css{
+    width: 600px;
+    background: #2196f3;
+  }
+  .project-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  .project{
+    background: white;
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .project img{
+    width: 10%;
+    border-radius: 20px;
+  }
+  .project:hover{
+    transform: scale(1.03);
+    transition: 0.3s;
+  }
+  form{
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  max-width: 500px;
+  margin: auto;
+}
+input, textarea {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  background: #2196f3;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover{
+  background: rgba(0, 0, 255, 0.853);
+}
+
+footer{
+  background:#393636;
+  color: white;
+  text-align: center;
+  margin: 30px;
+  padding: 15px;
+  cursor: pointer;
+}
+ @media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero {
+    padding: 40px 10px;
+  }} 
+
+
+
+
