@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <Head>
+<link rel="stylesheet" href="style2.css">
+  </Head>
+<body>
+    <!-- Navbar -->
+  <header>
+    <nav>
+    <h2 class="logo">Myportfolio</h2>  
+    <ul>
+      <li><a href="#home">home:</a></li>
+      <li><a href="#about">about:</a></li>
+      <li><a href="#skill">skill:</a></li>
+      <li><a href="#project">project:</a></li>
+      <li><a href="#contact">contact:</a></li>
+    </ul>
+    </nav>
+  </header>
+  <!-- Home Section -->
+  <section id="home" class="hero">
+    <h1>Muhammad Muhammad</h1>
+    <p>Welcome to Myportfolio</p>
+  </section>
+  <!-- about section -->
+  <section id="about" class="legend">
+    <h1>About Me</h1>
+    <p>I’m a passionate web development student who enjoys creating clean and responsive websites using HTML and CSS. 
+      I’m always eager to learn new technologies and improve my coding skills.</p>
+  </section>
+    <!-- skill Section -->
+  <section id="skill" class="skills">
+    <h1>My skill</h1>
+    <div class="skill-bar">
+      <p>HTML</p> <div class="bar"> <div class="progress html"></div>   </div>
+    </div>
+    <div class="skill-bar">
+      <p>css</p><div class="bar"> <div class="progress css"></div> </div>
+    </div>
+  </section>
+    <!-- project Section -->
+  <section id="project" class="project">
+    <h1>my project</h1>
+    <div class="project-container">
+      <div class="project">
+        <img src="c:\Users\fika\Desktop\project.jpg">
+        <h4>my one project</h4>
+        <p>it is all about html and least of css</p>
+      </div>
+      <div class="project">
+        <img src="c:\Users\fika\Documents\project2.jpg">
+        <h4>my second project</h4>
+        <p>it is all about the complete design of my website</p>
+      </div>
+    </div>
+  </section>
+    <!-- contact Section -->
+  <section id="contact" class="contact">
+    <h1>contact Me</h1>
+    <form>
+      <input type="text" placeholder="your name" required><br>
+      <input type="Email" placeholder="your Email" required><br>
+      <textarea placeholder="Message" required></textarea><br>
+      <button type="submit"> send message</button>
+    </form>
+  </section>
+    <!-- footerSection -->
+
+  <footer>
+    <p>@copy,2025 Muhammad. everything is now reserved</p>
+  </footer>
+</body>
+</html>
