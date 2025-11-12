@@ -1,0 +1,93 @@
+
+// 1. Print your name, age, and favorite color
+console.log("My name is Muhammad");
+console.log("I am 20 years old");
+console.log("My favorite color is Blue");
+console.log("I love learning JavaScript");
+console.log("I enjoy coding and problem solving");
+
+// 2. Create variables and print them together
+let name = "Muhammad";
+let age = 20;
+let school = "buk";
+console.log(`My name is ${name}, I am ${age} years old, and I study at ${school}.`);
+
+// 3. Variables of different data types
+let myName = "Abubakar";   
+let myAge = 20;            
+let isStudent = true;     
+console.log(myName, myAge, isStudent);
+
+// 4. Arithmetic operations
+let x = 15;
+let y = 4;
+console.log("Addition:", x + y);
+console.log("Subtraction:", x - y);
+console.log("Multiplication:", x * y);
+console.log("Division:", x / y);
+console.log("Remainder:", x % y);
+
+// 5. Check if a number is positive, negative, or zero
+let number = -7;
+if (number > 0) {
+  console.log("The number is positive");
+} else if (number < 0) {
+  console.log("The number is negative");
+} else {
+  console.log("The number is zero");
+}
+// 6. Check voting eligibility
+let personAge = 17;
+if (personAge >= 18) {
+  console.log("You are eligible to vote.");
+} else {
+  console.log("You are not old enough to vote.");
+}
+
+
+// 7. Array of favorite fruits
+let fruits = ["Apple", "Banana", "Orange", "Mango", "Grapes"];
+for (let i = 0; i < fruits.length; i++) {
+  console.log(fruits[i]);
+}
+
+// 8. While loop from 1 to 20
+let i = 1;
+while (i <= 20) {
+  console.log(i);
+  i++;
+}
+
+
+// 9. Print even numbers between 1 and 50
+for (let n = 1; n <= 50; n++) {
+  if (n % 2 === 0) {
+    console.log(n);
+  }
+}
+
+// 10. Multiplication table of 5
+let num = 5;
+for (let i = 1; i <= 12; i++) {
+  console.log(`${num} x ${i} = ${num * i}`);
+}
+
+//11 Functions
+
+function greetUser(name) {
+  console.log(`Hello, ${name}! Welcome to JavaScript.`);
+}
+greetUser("Muhammad");
+
+// 12. Add two numbers
+function addNumbers(a, b) {
+  return a + b;
+}
+console.log("Sum:", addNumbers(8, 5));
+
+// 13. Check if a number is even
+function isEven(num) {
+  return num % 2 === 0;
+}
+console.log("Is 10 even", isEven(10));
+console.log("Is 7 even", isEven(7));
